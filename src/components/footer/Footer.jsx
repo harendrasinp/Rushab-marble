@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-col items-center md:items-start justify-center min-w-[150px]'>
-          <span className="text-red-600 text-[1.2rem] text-center mt-5">Cureers</span>
+          <span className="text-red-600 text-[1.2rem] text-center mt-5">Career</span>
           <ul className='text-white text-[1rem] list-none text-center md:text-left'>
             <li>Showroom Sales Executive</li>
             <li>Site Supervisor</li>
