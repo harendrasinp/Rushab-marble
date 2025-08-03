@@ -41,10 +41,10 @@ const Footer = () => {
 
         <div className='flex flex-col items-center md:items-start min-w-[200px]'>
           <span className="text-red-600 text-[1.2rem] text-center mt-5">Contact</span>
-          <ul className='text-white text-[1rem] list-none md:text-left'>
-            <li className='flex items-start'>
+          <ul className='text-white text-[1rem] list-none h-[8rem] flex flex-col justify-between '>
+            <li className='flex items-start gap-2'>
               <FaMapMarkerAlt className="text-white text-[1.5rem]" />
-              <p className='w-[15rem]'>Rushab Marbles, Near Refferal Hospital,Surat Dhuliya Road Vyara 394650</p>
+              <p className='w-[15rem] text-justify'>Rushab Marbles, Near Refferal Hospital,Surat Dhuliya Road Vyara 394650</p>
             </li>
             <li className='flex items-center gap-2'>
               <FaPhoneAlt className="text-white text-[1.5rem]" />
