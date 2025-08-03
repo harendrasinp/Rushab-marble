@@ -36,14 +36,14 @@ const Footer = () => {
         </div>
         <div className='flex flex-col items-center md:items-start min-w-[200px]'>
           <span className="text-red-600 text-[1.2rem] text-center mt-5">Contact</span>
-          <ul className='text-white text-[1rem] list-none break-words text-center md:text-left'>
-            <li className='flex gap-2 w-[15rem]'>
-              <FaMapMarkerAlt className="text-white text-[2rem]"/>
+          <ul className='text-white text-[1rem] list-none md:text-left'>
+            <li className='flex items-start gap-2'>
+              <FaMapMarkerAlt className="text-white text-[1.5rem]" />
               Rushab Marbles,Near Refferal Hospital,Surat Dhuliya Road Vyara 394650
             </li>
             <li className='flex items-center gap-2'>
               <FaPhoneAlt className="text-white" />
-               94268 24190
+              94268 24190
             </li>
             <li className='flex items-center gap-2'>
               <FaEnvelope className="text-white" />
