@@ -3,10 +3,10 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className="w-full min-h-64 bg-[url('/Images/contact/contact-bg.jpg')] bg-cover bg-center flex items-start justify-center shadow-lg shadow-gray-800 py-8">
-      <div className='flex flex-col md:flex-row md:justify-between w-full max-w-6xl mx-auto text-justify gap-8 px-4'>
-        <div className='flex flex-col items-start justify-center min-w-[150px]'>
+      <div className='flex flex-col md:flex-row md:justify-between w-full max-w-6xl mx-auto text-justify gap-8 px-4 items-center md:items-start text-center md:text-left'>
+        <div className='flex flex-col items-center md:items-start justify-center min-w-[150px]'>
           <span className="text-red-600 text-[1.2rem] text-center mt-5">Collections</span>
-          <ul className='text-white text-[1rem] list-none'>
+          <ul className='text-white text-[1rem] list-none text-center md:text-left'>
             <li>Bathtubs</li>
             <li>Faucets (Taps)</li>
             <li>Western Toilets (Commodes)</li>
@@ -14,9 +14,9 @@ const Footer = () => {
             <li>Wash Basins & Kitchen Sinks</li>
           </ul>
         </div>
-        <div className='flex flex-col items-start justify-center min-w-[150px]'>
+        <div className='flex flex-col items-center md:items-start justify-center min-w-[150px]'>
           <span className="text-red-600 text-[1.2rem] text-center mt-5">Cureers</span>
-          <ul className='text-white text-[1rem] list-none'>
+          <ul className='text-white text-[1rem] list-none text-center md:text-left'>
             <li>Showroom Sales Executive</li>
             <li>Site Supervisor</li>
             <li>Marble Cutting & Finishing Expert</li>
@@ -24,9 +24,9 @@ const Footer = () => {
             <li>Interior Designer(Part-Time)</li>
           </ul>
         </div>
-        <div className="flex flex-col items-start justify-center min-w-[150px]">
+        <div className="flex flex-col items-center md:items-start justify-center min-w-[150px]">
           <span className="text-red-600 text-[1.2rem] text-center mt-5">Quik Links</span>
-          <ul className='text-white text-[1rem] list-none'>
+          <ul className='text-white text-[1rem] list-none text-center md:text-left'>
             <li>Home</li>
             <li>About Us</li>
             <li>Media Resources</li>
@@ -34,9 +34,9 @@ const Footer = () => {
             <li>Quality</li>
           </ul>
         </div>
-        <div className='flex flex-col items-start min-w-[200px]'>
+        <div className='flex flex-col items-center md:items-start min-w-[200px]'>
           <span className="text-red-600 text-[1.2rem] text-center mt-5">Contact</span>
-          <ul className='text-white text-[1rem] list-none text-justify break-words'>
+          <ul className='text-white text-[1rem] list-none break-words text-center md:text-left'>
             <li className='flex gap-2 w-[15rem]'>
               <FaMapMarkerAlt className="text-white text-[2rem]"/>
               Rushab Marbles,Near Refferal Hospital,Surat Dhuliya Road Vyara 394650
