@@ -12,11 +12,11 @@ const NewAddition = () => {
         slidesToScroll: 1
     };
     const images = [
-        "/images/menu/bathtub.png",
-        "/images/menu/sink.png",
-        "/images/newAddition/new1.jpg",
-        "/images/menu/tilse.png",
-
+        "/Images/newAddition/bathtub.png",
+        "/Images/newAddition/new1.jpg",
+        "/Images/newAddition/sink.png",
+        "/Images/newAddition/slab.png",
+        "/Images/newAddition/tilse.png",
     ];
 
     return (
