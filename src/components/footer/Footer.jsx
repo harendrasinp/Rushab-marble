@@ -39,7 +39,7 @@ const Footer = () => {
           <ul className='text-white text-[1rem] list-none md:text-left'>
             <li className='flex items-start gap-2'>
               <FaMapMarkerAlt className="text-white text-[1.5rem]" />
-              Rushab Marbles,Near Refferal Hospital,Surat Dhuliya Road Vyara 394650
+              <p>Rushab Marbles,Near Refferal Hospital,Surat Dhuliya Road Vyara 394650</p>
             </li>
             <li className='flex items-center gap-2'>
               <FaPhoneAlt className="text-white" />
