@@ -2,7 +2,8 @@ export const menuData = [
   {
     id: 1,
     image: "/Images/menu/sink.png",
-    title: "Sink",
+    title: "sink",
+    link: "sink"
   },
   {
     id: 2,  

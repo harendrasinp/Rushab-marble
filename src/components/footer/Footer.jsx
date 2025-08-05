@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
@@ -31,7 +32,7 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start justify-center min-w-[150px]">
           <span className="text-red-600 text-[1.2rem] text-center mt-5">Quik Links</span>
           <ul className='text-white text-[1rem] list-none text-center md:text-left'>
-            <li>Home</li>
+            <li><Link href="/">Home</Link></li>
             <li>About Us</li>
             <li>Media Resources</li>
             <li>Products</li>
